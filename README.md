@@ -1,1 +1,1 @@
-# Qualys
+# Qualys Training and Certification Notes
