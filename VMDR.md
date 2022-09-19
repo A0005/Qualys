@@ -134,39 +134,39 @@ Configure Agents for VMDR:
     a button 'COnfigure Agents for VDMR' where you can configure agent activation 
     keys for VMDR. This typically replaces the button 'Download Cloud Agent'.
      
-VMDR Activation Key 4:
+VMDR Activation Key 3:
 Upgrade Agent Activation Keys:
    
-   Use the "Upgrade" option on a selected Activation Key to ensure that the
-   Patch Management (PM), Vulnerability Manager (VM), and Security Configuration
-   Assessment (SCA) modules are added. All Activation Keys include the Cybersecurity 
-   Asset Management (CSAM) application, by default.
+    Use the "Upgrade" option on a selected Activation Key to ensure that the
+    Patch Management (PM), Vulnerability Manager (VM), and Security Configuration
+    Assessment (SCA) modules are added. All Activation Keys include the Cybersecurity 
+    Asset Management (CSAM) application, by default.
    
 VDMR Activation Key 4:
 Add Application Modules:
 
-   It is advised that you avoid including both the Secure Configuration Assessment
-   (SCA) module and the Policy Compliance (PC) module in the same actication key.
-   You can replace the SCA module with the PC module within one key. However, it is
-   highly recommended that you create two separate keys for each of these modules.
+    It is advised that you avoid including both the Secure Configuration Assessment
+    (SCA) module and the Policy Compliance (PC) module in the same actication key.
+    You can replace the SCA module with the PC module within one key. However, it is
+    highly recommended that you create two separate keys for each of these modules.
    
 VDMR Activation Key 5:
 Activation Key Tagging:
 
-   When agents are deployed with the Remote Host Activation Key, they automatically 
-   consume a patching liscense because of the "Remote" tag.
+    When agents are deployed with the Remote Host Activation Key, they automatically 
+    consume a patching liscense because of the "Remote" tag.
    
-   You can design and build Activation Keys around related groups
-   of assets or subnets within your network or enterprise architecture.
-   Assign a "static" tag to an agent Activation Key to quickly locate the
-   agent hosts that it deploys.
+    You can design and build Activation Keys around related groups
+    of assets or subnets within your network or enterprise architecture.
+    Assign a "static" tag to an agent Activation Key to quickly locate the
+    agent hosts that it deploys.
    
-   You can then use this staic tag (assigned to agent Activation Keys)
-   to assign patching licenses to hosts and ensure these hosts are correctly
-   assigned to their Configuration Profile, Patch Assessment Profile, and Patch Jobs.
+    You can then use this staic tag (assigned to agent Activation Keys)
+    to assign patching licenses to hosts and ensure these hosts are correctly
+    assigned to their Configuration Profile, Patch Assessment Profile, and Patch Jobs.
    
-   Best Practice: Use this strategy to assign agent host assets to their appropriate 
-   profiles, licenses and jobs, at the time of agent deployment.
+    Best Practice: Use this strategy to assign agent host assets to their appropriate 
+    profiles, licenses and jobs, at the time of agent deployment.
    
    
    
