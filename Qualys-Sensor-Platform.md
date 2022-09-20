@@ -167,6 +167,32 @@ Activation Key Tagging:
    
     Best Practice: Use this strategy to assign agent host assets to their appropriate 
     profiles, licenses and jobs, at the time of agent deployment.
+    
+    
+Qualys Passive Sensor:
+
+    The Passive sensor has a significant advantage. It captures bonus information from
+    network conversations (between two communicating hosts). A passive sensor not only sees 
+    the network traffic from 'managed' assets (within your account) but also traffic from 
+    other host assets and services attempting to cmmunicate with your 'managed' host assets
+    (including community coming from unkown assets).
+    
+Qualys Cloud Connector:
+
+    The Qualys Cloud Connectors can be configured for AWS, Google Cloud, and 
+    Microsoft Azure accounts.
+    
+    After configuration, Qualys enumerates the cloud instances associated with
+    your AWS, Google, and Microsoft accounts, along with pertinent metadata
+    and configuration settings, which can be leveraged with the Qualys Cloud 
+    Security Assessment application to identify and correct misconfigurations.
+    
+Qualys Container Sensor:
+
+    Qualys Container Sensor is a container that runs alongside other application
+    containers. It downloads as a docker image and is installed on a Docker host
+    as a container applicaiton, along with other container applications. Its funcation
+    is to assess all new and existing Docker images and containers for vulnerability.
    
    
    
